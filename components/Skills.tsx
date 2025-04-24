@@ -2,6 +2,10 @@ import React from "react";
 import Header from "./Header";
 import Image from "next/image";
 
+import { Montserrat } from "next/font/google";
+
+const montserrat = Montserrat();
+
 const languages = [
   {
     src: "html5.jpg",
@@ -83,7 +87,7 @@ const languages = [
 const Skills = () => {
   return (
     <div className="bg-secondary flex flex-col items-center">
-      <Header className="">Skills</Header>
+      <Header className={montserrat.className}>SKILLS</Header>
       <div className="grid grid-cols-4 gap-x-20 m-10">
         {languages.map((lang) => (
           <LangContainer
@@ -121,7 +125,7 @@ const LangContainer = ({
           className="object-contain"
         />
       </div>
-      <p>{title}</p>
+      <p className={montserrat.className}>{title}</p>
     </div>
   );
 };
