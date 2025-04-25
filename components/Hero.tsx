@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Raleway } from "next/font/google";
+import AnimatedSection from "./AnimatedSection";
 
 const raleway = Raleway({});
 
@@ -11,15 +12,19 @@ const HeroSection = () => {
         style={{ clipPath: "polygon(60% 0%, 100% 0%, 100% 100%, 40% 100%)" }}
       ></div>
       <div className={`relative z-10 p-10 text-black ${raleway.className}`}>
-        <Image
-          src="/BM_logo_bottom_right-removebg-preview.png"
-          alt="logo"
-          width={100}
-          height={100}
-        />
-        <h2 className="text-[40px]">Hi, I am</h2>
-        <h1 className="text-[80px]">Bashar Mohamed</h1>
-        <h3 className="text-2xl text-muted-foreground">Full Stack Developer</h3>
+        <AnimatedSection>
+          <Image
+            src="/BM_logo_bottom_right-removebg-preview.png"
+            alt="logo"
+            width={100}
+            height={100}
+          />
+          <h2 className="text-[40px]">Hi, I am</h2>
+          <h1 className="text-[80px]">Bashar Mohamed</h1>
+          <h3 className="text-2xl text-muted-foreground">
+            Full Stack Developer
+          </h3>
+        </AnimatedSection>
         <Image
           src="/Bashawra.jpg"
           alt="My profile image"

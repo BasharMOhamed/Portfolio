@@ -7,7 +7,7 @@ const montserrat = Montserrat({});
 
 const Navbar = () => {
   return (
-    <div className="bg-black py-[10px] sticky">
+    <div className="bg-black py-[10px] sticky top-0 z-1000">
       <NavLinks />
     </div>
   );

@@ -3,6 +3,7 @@ import Header from "./Header";
 import Image from "next/image";
 
 import { Montserrat } from "next/font/google";
+import AnimatedSection from "./AnimatedSection";
 
 const montserrat = Montserrat();
 
@@ -88,16 +89,18 @@ const Skills = () => {
   return (
     <div className="bg-secondary flex flex-col items-center">
       <Header className={montserrat.className}>SKILLS</Header>
-      <div className="grid grid-cols-4 gap-x-20 m-10">
-        {languages.map((lang) => (
-          <LangContainer
-            key={lang.title}
-            src={lang.src}
-            alt={lang.alt}
-            title={lang.title}
-          />
-        ))}
-      </div>
+      <AnimatedSection>
+        <div className="grid grid-cols-4 gap-x-20 m-10">
+          {languages.map((lang) => (
+            <LangContainer
+              key={lang.title}
+              src={lang.src}
+              alt={lang.alt}
+              title={lang.title}
+            />
+          ))}
+        </div>
+      </AnimatedSection>
     </div>
   );
 };
