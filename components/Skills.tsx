@@ -6,7 +6,9 @@ import { Montserrat } from "next/font/google";
 import { languages } from "../constants";
 import AnimatedSection from "./AnimatedSection";
 
-const montserrat = Montserrat();
+const montserrat = Montserrat({
+  subsets: ["latin"],
+});
 
 const Skills = () => {
   return (

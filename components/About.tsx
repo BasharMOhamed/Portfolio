@@ -2,7 +2,9 @@
 import React from "react";
 import { Montserrat } from "next/font/google";
 import Header from "./Header";
-const montserrat = Montserrat();
+const montserrat = Montserrat({
+  subsets: ["latin"],
+});
 import dynamic from "next/dynamic";
 
 const Timeline = dynamic(() => import("../components/TimelineWrapper"), {

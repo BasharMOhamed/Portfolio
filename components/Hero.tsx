@@ -4,7 +4,9 @@ import AnimatedSection from "./AnimatedSection";
 import { Github, Linkedin, Mail, Briefcase } from "lucide-react";
 import { JSX } from "react";
 
-const raleway = Raleway({});
+const raleway = Raleway({
+  subsets: ["latin"],
+});
 
 const socialMediaLinks = [
   {

@@ -5,7 +5,9 @@ import { Montserrat } from "next/font/google";
 import { Button } from "./ui/button";
 import { Menu, X } from "lucide-react";
 
-const montserrat = Montserrat({});
+const montserrat = Montserrat({
+  subsets: ["latin"],
+});
 
 type NavItem = {
   id: string;
