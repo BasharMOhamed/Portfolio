@@ -14,9 +14,10 @@ export default function TimelineWrapper() {
     <VerticalTimeline lineColor="#000">
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        date="Aug 2024 – Sep 2024"
+        date="August 2024 – September 2024"
         iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
         // icon={<WorkIcon />}
+        icon={<StarIcon />}
       >
         <h2 className="vertical-timeline-element-title font-bold">Cyberus</h2>
         <h4 className="vertical-timeline-element-subtitle text-muted-foreground">
@@ -44,6 +45,7 @@ export default function TimelineWrapper() {
         // contentArrowStyle={{ color: "rgb(233, 30, 99)" }}
         iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
         // icon={<WorkIcon />}
+        icon={<StarIcon />}
       >
         <h2 className="vertical-timeline-element-title font-bold">
           Information Technology Institute
@@ -71,6 +73,7 @@ export default function TimelineWrapper() {
         date="November 2023 - March 2024"
         iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
         // icon={<WorkIcon />}
+        icon={<StarIcon />}
       >
         <h2 className="vertical-timeline-element-title font-bold">Connect-X</h2>
         <h4 className="vertical-timeline-element-subtitle text-muted-foreground">

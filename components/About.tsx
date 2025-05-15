@@ -11,10 +11,11 @@ const Timeline = dynamic(() => import("../components/TimelineWrapper"), {
 
 const About = () => {
   return (
-    <div className={`w-full py-10 flex flex-col items-center bg-secondary `}>
-      <Header className={`${montserrat.className} mb-10`}>
-        Work Experience
-      </Header>
+    <div
+      id="about"
+      className={`w-full py-10 flex flex-col items-center bg-secondary `}
+    >
+      <Header className={`${montserrat.className}`}>Work Experience</Header>
       <Timeline />
     </div>
   );
