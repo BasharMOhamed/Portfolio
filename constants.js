@@ -1,6 +1,6 @@
 export const languages = [
   {
-    src: "html5-removebg-preview.jpg",
+    src: "html5-removebg-preview.png",
     alt: "html5 logo",
     title: "HTML5",
   },
@@ -10,12 +10,12 @@ export const languages = [
     title: "CSS3",
   },
   {
-    src: "javascript-removebg-preview.jpg",
+    src: "javascript-removebg-preview.png",
     alt: "javascript logo",
     title: "JAVASCRIPT",
   },
   {
-    src: "bootstrap-removebg-preview.jpeg",
+    src: "bootstrap-removebg-preview.png",
     alt: "bootstrap logo",
     title: "Bootstrap",
   },
@@ -25,7 +25,7 @@ export const languages = [
     title: "TAILWIND",
   },
   {
-    src: "git-removebg-preview.jpg",
+    src: "git-removebg-preview.png",
     alt: "git logo",
     title: "GIT",
   },
@@ -40,27 +40,27 @@ export const languages = [
     title: "TYPESCRIPT",
   },
   {
-    src: "next js-removebg-preview.png",
+    src: "next_js-removebg-preview.png",
     alt: "next js logo",
     title: "NEXT JS",
   },
   {
-    src: "node js-removebg-preview.png",
+    src: "node_js-removebg-preview.png",
     alt: "node js logo",
     title: "NODE JS",
   },
   {
-    src: "express js-removebg-preview.png",
+    src: "express_js-removebg-preview.png",
     alt: "express js logo",
     title: "EXPRESS JS",
   },
   {
-    src: "figma-removebg-preview.jpeg",
+    src: "figma-removebg-preview.png",
     alt: "figma logo",
     title: "Figma",
   },
   {
-    src: "mongodb-removebg-preview.jpeg",
+    src: "mongodb-removebg-preview.png",
     alt: "mongodb logo",
     title: "MONGODB",
   },
@@ -70,7 +70,7 @@ export const languages = [
     title: "MySQL",
   },
   {
-    src: "postgresql-removebg-preview.jpeg",
+    src: "postgresql-removebg-preview.png",
     alt: "postgresql logo",
     title: "POSTGRESQL",
   },
